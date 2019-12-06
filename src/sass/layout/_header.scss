@@ -1,0 +1,190 @@
+
+.header {
+  background-blend-mode: multiply;
+  background-image: url("../../assets/img/macbook.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(59, 67, 76, 0.8);
+  font-size: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  .top-nav {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    //@include flex-style(flex, space-between, center);
+
+    .menu {
+      padding-left: 70%;
+      color: $main-color;
+      text-decoration: none;
+    }
+
+    .top-button {
+      color: $main-color;
+      border: none;
+      font-size: 34px;
+      background: transparent;
+    }
+  }
+
+  .offer {
+    text-align: center;
+    padding: 60px 0;
+
+    .offer-title {
+      color: white;
+      font-size: 70px;
+
+      .offer-title-orang {
+        color: $second-color;
+      }
+    }
+
+    .offer-text {
+      font-family: 'Open Sans', sans-serif;
+      @include text-decor(25px, 400, 40px, white);
+    }
+
+    .offer-buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0;
+    }
+
+    .btn {
+      text-decoration: none;
+      display: inline-block;
+      color: #fff;
+      text-transform: uppercase;
+      border: 1px solid #B8337F;
+      border-radius: 5px;
+      padding: 10px 20px;
+    }
+
+    .offer-button1 {
+      margin-right: 10px;
+      background-color: $second-color;
+      transition: color .3s ease;
+
+      &:hover {
+        background-color: darken($second-color, 10%);
+      }
+
+    }
+  }
+}
+
+
+.box-text {
+  overflow: auto;
+}
+
+
+.button {
+  display: inline-block;
+  background: lighten(green, 50%);
+  @include link-decor;
+  border-radius: 50px;
+  padding: 10px 25px;
+  //@include text-decor(24px, 400, 14px, $main-button-color);
+}
+
+/*--our works--*/
+
+.text-work {
+  max-width: 1200px;
+  .header-3 {
+    padding: 25px;
+    width: 100%;
+    .text-work-h {
+      text-align: center;
+      font-size: 35px;
+      text-transform: uppercase;
+      padding: 0 31%;
+      font-family: 'Open Sans', sans-serif;
+      .text-work2 {
+        color: red;
+        font-family: 'Open Sans', sans-serif;
+      }
+    }
+    .text-work-h3 {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 30px;
+      text-align: center;
+
+    }
+  }
+}
+/*--foto works--*/
+
+.foto-works {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1084px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.foto-1, .foto-2, .foto-3, .foto4, .tofo-5, .foto-6 {
+
+  margin: 1px;
+  width: 31%;
+}
+
+.button-submit-block-4 {
+  padding: 6px 20px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  color: #f7600e;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.button-submit-block-4:hover {
+  background-color: $hover-color;
+}
+
+.foto-6 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 31%;
+  background-color: #f7600e;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+#button-submit-block {
+  margin: 120px auto;
+  padding: 13px;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 199px;
+
+  text-align: center;
+  color: black;
+}
+
+#button-submit-block:hover {
+  background-color: $hover-color;
+}
+
+
+/*-- our works--*/
+
+
+
+
+
+

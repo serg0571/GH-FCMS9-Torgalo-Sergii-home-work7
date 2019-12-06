@@ -1,0 +1,20 @@
+$main-color: #ffffff;
+$second-color: #f7600e;
+$dark: #000000;
+$hover-color: #33ccff;
+
+@mixin link-decor{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+@mixin text-decor($fs,$fw,$lh,$col){
+  font-size: $fs;
+  font-weight: $fw;
+  line-height: $lh;
+  color: $col;
+}
+@mixin flex-style($df,$jc,$ai){
+  display: $df;
+  justify-content: $jc;
+  align-items: $ai;
+}
