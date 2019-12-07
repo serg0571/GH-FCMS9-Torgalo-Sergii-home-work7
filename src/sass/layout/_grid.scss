@@ -134,7 +134,28 @@
     margin-top: 51px;
     margin-bottom: 100px;
   }
+  .slider-side {
+    position: relative;
+    text-align: center;
+    padding-bottom: 10px;
 
+
+    .slider-left {
+      color: $main-color;
+      border-radius: 50%;
+      border: 2px solid;
+      padding: 0 3px;
+      margin-right: 190px;
+
+    }
+    .slider-right {
+      color: $main-color;
+      border-radius: 50%;
+      border: 2px solid;
+      padding: 0 5px;
+
+    }
+  }
   .avatar-text {
     @include text-decor(25px, 400, 40px, $main-color);
     font-family: 'Open Sans', sans-serif;
