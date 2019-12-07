@@ -77,6 +77,7 @@
 
     }
   }
+
   .slider-down {
     position: relative;
     text-align: center;
@@ -110,20 +111,24 @@
 
 .text-work {
   max-width: 1200px;
+
   .header-3 {
     padding: 25px;
     width: 100%;
+
     .text-work-h {
       text-align: center;
       font-size: 35px;
       text-transform: uppercase;
       padding: 0 31%;
       font-family: 'Open Sans', sans-serif;
+
       .text-work2 {
         color: red;
         font-family: 'Open Sans', sans-serif;
       }
     }
+
     .text-work-h3 {
       font-size: 16px;
       font-weight: 400;
@@ -133,6 +138,7 @@
     }
   }
 }
+
 /*--foto works--*/
 
 .foto-works {

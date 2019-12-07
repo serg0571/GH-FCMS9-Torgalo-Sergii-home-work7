@@ -4,8 +4,12 @@
     <list default="true" id="3bfc0277-e944-44f8-9cd9-33ddaa3ee165" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/slider/slider-down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/slider/slider-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/slider/slider-right.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/layout/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/layout/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/base/_basic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/base/_basic.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/layout/_footer.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575659196534</updated>
       <workItem from="1575659197743" duration="10564000" />
-      <workItem from="1575701007954" duration="2062000" />
+      <workItem from="1575701007954" duration="4756000" />
     </task>
     <servers />
   </component>

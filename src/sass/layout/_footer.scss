@@ -57,21 +57,16 @@
   }
 
   .submit-down {
+    @include flex-style(flex, center, center);
     text-decoration: none;
-    display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
     padding: 44px 0 10px 0;
 
     .submit-down-button {
-      text-decoration: none;
-      color: #ffffff;
-      background-color: #f7600e;
+      background-color: $second-color;
       padding: 10px 15px;
       border-radius: 7px;
       transition: color .5s ease;
-      width: 107px;
 
       &:hover {
         background-color: $hover-color;
@@ -84,7 +79,6 @@
       li {
         display: inline;
         margin-right: 5px;
-        border: 1px solid #000;
         padding: 3px;
       }
     }
