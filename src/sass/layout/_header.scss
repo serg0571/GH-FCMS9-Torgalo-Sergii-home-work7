@@ -77,6 +77,18 @@
 
     }
   }
+  .slider-down {
+    position: relative;
+    text-align: center;
+    padding-bottom: 10px;
+
+    .slider-down-1 {
+      color: $main-color;
+      border-radius: 50%;
+      border: 2px solid;
+      padding: 0 5px;
+    }
+  }
 }
 
 
