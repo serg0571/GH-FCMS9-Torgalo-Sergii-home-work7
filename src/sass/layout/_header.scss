@@ -12,10 +12,7 @@
 
   .top-nav {
     padding-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    //@include flex-style(flex, space-between, center);
+    @include flex-style(flex, space-between, center);
 
     .menu {
       padding-left: 70%;
@@ -50,9 +47,7 @@
     }
 
     .offer-buttons {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      @include flex-style(flex, center, center)
       padding: 20px 0;
     }
 
@@ -74,7 +69,6 @@
       &:hover {
         background-color: darken($second-color, 10%);
       }
-
     }
   }
 
